@@ -2,8 +2,7 @@
 import React,{useState} from 'react';
 import Users from './component/Users';
 import Dropdown from './component/Dropdown';
-//import Table from './component/Table';
- import Popup from './component/Popup';
+
 
 import './App.css';
 
@@ -15,8 +14,6 @@ function App() {
      
       <Dropdown selected={selected} setSelected={setSelected}/>
       <Users  selected={selected}/>
-       <Popup  /> 
-      {/* <Table/> */}
       
     </div>
   );
